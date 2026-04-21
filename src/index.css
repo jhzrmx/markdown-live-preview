@@ -152,8 +152,23 @@ code {
   overflow-x: auto;
   border-radius: 1rem;
   padding: 1rem 1.1rem;
+  background: rgb(231 229 228);
+  color: rgb(28 25 23);
+}
+
+.dark .markdown-preview pre {
   background: rgb(28 25 23);
   color: rgb(250 250 249);
+}
+
+.markdown-preview code:not(pre code) {
+  background: rgb(231 229 228);
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.35rem;
+}
+
+.dark .markdown-preview code:not(pre code) {
+  background: rgb(41 37 36);
 }
 
 .markdown-preview pre code {
