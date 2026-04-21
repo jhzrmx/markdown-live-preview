@@ -48,7 +48,7 @@ npm install
 npm run dev
 ```
 
-Open the local Vite URL shown in your terminal, usually `http://localhost:5173`.
+Open the local Vite URL shown in your terminal: `http://localhost:5173/markdown-live-preview/`.
 
 ## Available Scripts
 
