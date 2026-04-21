@@ -113,6 +113,7 @@ Contributions are welcome. If you want to improve the UI, fix bugs, refine Markd
 - Tailwind is configured using the Tailwind v4 Vite plugin, with no PostCSS setup
 - Markdown is parsed with `marked`
 - Rendered HTML is sanitized with `DOMPurify`
+- Syntax highlighting is parsed with `highlight.js`
 - Theme preference and draft content are persisted in the browser
 
 ## License
