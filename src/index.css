@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: #0c0a09;
+  background: #f5f5f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.github-font {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+pre {
+  padding: 1rem;
+  border-radius: 14px;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+code {
+  font-family: ui-monospace, monospace;
+}
+
+.markdown-preview {
+  color: inherit;
+  line-height: 1.75;
+}
+
+.markdown-preview > :first-child {
+  margin-top: 0;
+}
+
+.markdown-preview > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown-preview h1,
+.markdown-preview h2,
+.markdown-preview h3,
+.markdown-preview h4 {
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 1.6em 0 0.7em;
+  color: rgb(28 25 23);
+}
+
+.dark .markdown-preview h1,
+.dark .markdown-preview h2,
+.dark .markdown-preview h3,
+.dark .markdown-preview h4 {
+  color: rgb(250 250 249);
+}
+
+.markdown-preview h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+
+.markdown-preview h2 {
+  font-size: clamp(1.55rem, 2.2vw, 2.15rem);
+}
+
+.markdown-preview h3 {
+  font-size: 1.3rem;
+}
+
+.markdown-preview p,
+.markdown-preview ul,
+.markdown-preview ol,
+.markdown-preview blockquote,
+.markdown-preview pre {
+  margin: 1em 0;
+}
+
+.markdown-preview ul,
+.markdown-preview ol {
+  padding-left: 1.4rem;
+}
+
+.markdown-preview li + li {
+  margin-top: 0.35rem;
+}
+
+.markdown-preview a {
+  color: rgb(217 119 6);
+}
+
+.markdown-preview blockquote {
+  border-left: 4px solid rgb(251 191 36);
+  padding: 0.2rem 0 0.2rem 1rem;
+  color: rgb(87 83 78);
+  background: rgb(245 245 244 / 0.85);
+}
+
+.dark .markdown-preview blockquote {
+  color: rgb(214 211 209);
+  background: rgb(28 25 23 / 0.7);
+}
+
+.markdown-preview code {
+  font-family: "Consolas", "SFMono-Regular", monospace;
+  font-size: 0.92em;
+  background: rgb(231 229 228);
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.35rem;
+}
+
+.dark .markdown-preview code {
+  background: rgb(41 37 36);
+}
+
+.markdown-preview pre {
+  overflow-x: auto;
+  border-radius: 1rem;
+  padding: 1rem 1.1rem;
+  background: rgb(28 25 23);
+  color: rgb(250 250 249);
+}
+
+.markdown-preview pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.markdown-preview hr {
+  border: 0;
+  border-top: 1px solid rgb(214 211 209);
+  margin: 2rem 0;
+}
+
+.dark .markdown-preview hr {
+  border-top-color: rgb(68 64 60);
+}
+
+.markdown-preview table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+}
+
+.markdown-preview th,
+.markdown-preview td {
+  border: 1px solid rgb(214 211 209);
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+}
+
+.dark .markdown-preview th,
+.dark .markdown-preview td {
+  border-color: rgb(68 64 60);
+}
