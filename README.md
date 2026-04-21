@@ -15,6 +15,7 @@ This project is designed for fast writing, instant previewing, and safe local re
 - Theme toggle with saved preference
 - Syntax highlighting in multiline code if language is specified
 - Built with SolidJS and Vite for a fast development experience
+- Demo: https://jhzrmx.github.io/markdown-live-preview/
 
 ## Tech Stack
 
