@@ -103,6 +103,11 @@ code {
   list-style-type: decimal;
 }
 
+.markdown-preview ul,
+.markdown-preview ol {
+  padding-left: 2em;
+}
+
 .markdown-preview ul ul {
   list-style-type: circle;
 }
