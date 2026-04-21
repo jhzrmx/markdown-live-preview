@@ -23,6 +23,7 @@ This project is designed for fast writing, instant previewing, and safe local re
 - `TypeScript`
 - `Tailwind CSS v4`
 - `marked`
+- `highlight.js`
 - `DOMPurify`
 
 ## Getting Started
